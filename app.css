@@ -5,13 +5,13 @@ span {
 h1 {
     font-size: 8em;
     width:100%;
-    align-content: center;
+    text-align: center;
 }
 
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     height: 100vh;
     background-color: black;
   }
