@@ -5,7 +5,25 @@ span {
 h1 {
     font-size: 8em;
     width:100%;
+    height: 30%;
     text-align: center;
+}
+
+@media (max-width: 800px)
+ {
+    h1 {
+        font-size: 2em;
+        box-sizing: border-box;
+        background-color: plum
+        /* width:50%; */
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 5em;
+        margin:50px 0;
+    }
 }
 
 body {
@@ -15,4 +33,7 @@ body {
     height: 100vh;
     background-color: black;
   }
+
+
+
 
